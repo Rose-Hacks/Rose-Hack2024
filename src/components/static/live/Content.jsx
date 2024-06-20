@@ -28,25 +28,11 @@ const Content = () => {
             ) : null}
           </div>
           <Link
-            link="https://docs.google.com/forms/u/5/d/e/1FAIpQLSdyRCXldlBdXSuy-9szLdOF4bWp9NEnWzi1dakY9xq7sd1hyw/viewform"
-            text="2025 Director's Application"
+            link="/form/participant"
+            text="Register Here"
             fromColor="from-rosehack-pink-200"
             toColor="to-rosehack-blue"
           />
-          <div className="flex flex-row justify-between gap-3 mt-4">
-            <Link
-              link="/form/feedback"
-              text="feedback"
-              fromColor="from-rosehack-pink-200"
-              toColor="to-rosehack-blue"
-            />
-            <Link
-              link="https://rosehack2024.devpost.com/"
-              text="winners"
-              fromColor="from-rosehack-pink-200"
-              toColor="to-rosehack-blue"
-            />
-          </div>
         </div>
       </div>
     </div>
