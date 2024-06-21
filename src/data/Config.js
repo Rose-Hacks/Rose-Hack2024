@@ -7,8 +7,8 @@ export const CONFIG = {
 };
 
 export const MANIFEST = {
-  name: "Rosehack 2024",
-  short_name: "Rosehack 2024",
+  name: "Rosehack 2025",
+  short_name: "Rosehack 2025",
   description: "A women-centric 24 hour hackathon in UC Riverside",
   start_url: "/",
 };

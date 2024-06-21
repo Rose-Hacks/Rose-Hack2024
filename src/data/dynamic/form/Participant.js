@@ -9,7 +9,7 @@ export const FIELDS = {
     input: "description",
     width: 12,
     texts: [
-      "Welcome to Rosehack 2024. Thank you for being on the organizing team, we appreciate your efforts to help support Rosehack 2024. Rosehack 2024 is a women-centric hackathon spanning 24 hours on January 21st.",
+      "Welcome to Rosehack 2025. Thank you for being on the organizing team, we appreciate your efforts to help support Rosehack 2025. Rosehack 2025 is a women-centric hackathon spanning 24 hours in January.",
       "Participants are not required to stay the full duration of the event, but are encouraged to checkout the various events, workshops, and opportunities that are available.",
     ],
   },
