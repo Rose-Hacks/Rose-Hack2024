@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const QUESTIONS = [
   {
     question: "What is Rosehack?",
@@ -52,5 +53,13 @@ export const QUESTIONS = [
     question: "Are teams required?",
     answer:
       "No, you can work independently if you wish.  If you do want to join a team, there is a limit of 4 people per team!",
+  },
+  {
+    question: "MLH Code of Conduct",
+    answer: (
+      <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+        MLH Code of Conduct
+      </Link>
+    ),
   },
 ];
