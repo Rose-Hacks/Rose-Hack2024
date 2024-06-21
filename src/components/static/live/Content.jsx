@@ -31,7 +31,7 @@ const Content = () => {
             ) : null}
           </div> */}
           <Link
-            link="/form/participant"
+            link="https://forms.gle/7we2bFffVZ8P5vYX6"
             text="register"
             fromColor="from-rosehack-pink-200"
             toColor="to-rosehack-blue"
