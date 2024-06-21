@@ -7,11 +7,14 @@ const Content = () => {
   return (
     <div className="relative text-white w-full flex flex-col items-center">
       <p className="w-full text-center font-advent text-4xl md:text-5xl drop-shadow-pink-200">
-        ROSEHACK 2024
+        ROSEHACK 2025
+      </p>
+      <p className="w-full text-center font-advent text-2xl md:text-3xl drop-shadow-pink-200">
+        UPCOMING
       </p>
       <div className="w-9/12 md:w-fit backdrop-blur-md rounded-3xl mt-3">
         <p className="font-orbitron text-center mb-0 p-2 border-[1px] rounded-t-3xl border-white/20 w-full text-lg md:text-2xl text-white bg-gradient-to-r from-white/20 to-white/0">
-          January 20 - 21
+          January 2025
         </p>
         <div className="p-3 border-t-0 border-[1px] rounded-b-3xl border-white/20 w-full text-white bg-gradient-to-b from-black/50 to-black/0 font-orbitron flex flex-col items-center">
           <Contacts />
@@ -28,8 +31,8 @@ const Content = () => {
             ) : null}
           </div>
           <Link
-            link="https://docs.google.com/forms/u/5/d/e/1FAIpQLSdyRCXldlBdXSuy-9szLdOF4bWp9NEnWzi1dakY9xq7sd1hyw/viewform"
-            text="2025 Director's Application"
+            link="/form/participant"
+            text="register"
             fromColor="from-rosehack-pink-200"
             toColor="to-rosehack-blue"
           />
@@ -40,12 +43,12 @@ const Content = () => {
               fromColor="from-rosehack-pink-200"
               toColor="to-rosehack-blue"
             />
-            <Link
+            {/* <Link
               link="https://rosehack2024.devpost.com/"
               text="winners"
               fromColor="from-rosehack-pink-200"
               toColor="to-rosehack-blue"
-            />
+            /> */}
           </div>
         </div>
       </div>

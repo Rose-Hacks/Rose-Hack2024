@@ -15,7 +15,7 @@ const Landing = () => {
         className="right-3 lg:right-10 top-0 z-1 w-12 md:w-28 cursor-pointer absolute"
       >
         <Image
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
+          src="https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg"
           alt="Major League Hacking 2024 Hackathon Season"
           className="w-full cursor-pointer"
           width={100}
