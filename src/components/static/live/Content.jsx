@@ -14,7 +14,7 @@ const Content = () => {
       </p>
       <div className="w-9/12 md:w-fit backdrop-blur-md rounded-3xl mt-3">
         <p className="font-orbitron text-center mb-0 p-3 border-[1px] rounded-t-3xl border-white/20 w-full text-lg md:text-2xl text-white bg-gradient-to-r from-white/20 to-white/0">
-          January 18-19, 2025
+          Feburary 8-9, 2025
         </p>
         <div className="gap-3 md:gap-4 p-3 border-t-0 border-[1px] rounded-b-3xl border-white/20 w-full text-white bg-gradient-to-b from-black/50 to-black/0 font-orbitron flex flex-col items-center">
           <Countdown />
