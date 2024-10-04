@@ -6,7 +6,7 @@ import Postlive from "@/components/static/postlive/Postlive";
 const Home = () => {
   return (
     <div className="w-full">
-      <title>Rosehack 2024</title>
+      <title>Rosehack 2025</title>
       <Release release={RELEASES.STATIC.LIVE}>
         <Live />
       </Release>

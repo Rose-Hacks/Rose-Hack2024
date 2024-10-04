@@ -1,8 +1,9 @@
+import Link from "next/link";
 export const QUESTIONS = [
   {
     question: "What is Rosehack?",
     answer:
-      "Rose Hack is the Inland Empire’s first and annual women-centric hackathon taking place January 20-21st, 2024. Our goal is to bring together underrepresented groups in STEM, such as females and people of color, to encourage a unique network and create innovative projects through their shared passion in STEM.",
+      "Rose Hack is the Inland Empire’s first and annual women-centric hackathon taking place January 2025. Our goal is to bring together underrepresented groups in STEM, such as females and people of color, to encourage a unique network and create innovative projects through their shared passion in STEM.",
   },
   {
     question: "Who is allowed to sign-up?",
@@ -16,7 +17,7 @@ export const QUESTIONS = [
   {
     question: "Is there a deadline for joining Rose Hack?",
     answer:
-      "Applications are due on January 19th at 11:59 PM. Don’t wait, click the link in the website to join!",
+      "Applications are due in January. Don’t wait, click the link in the website to join!",
   },
   {
     question: "Will joining Rose Hack cost money?",
@@ -26,7 +27,7 @@ export const QUESTIONS = [
   {
     question: "How long will Rose Hack last?",
     answer:
-      "Rose Hack takes place over the course of 2 days from January 20 at 9 AM to January 21st.  There are 24 hours for hacking, and the rest of the time will be for judges to go over projects and attendees to check out workshops and speakers.",
+      "Rose Hack takes place over the course of 2 days.  There are 24 hours for hacking, and the rest of the time will be for judges to go over projects and attendees to check out workshops and speakers.",
   },
   {
     question: "Where will the hackathon take place?",
@@ -54,8 +55,11 @@ export const QUESTIONS = [
       "No, you can work independently if you wish.  If you do want to join a team, there is a limit of 4 people per team!",
   },
   {
-    question: "What is the theme this year?",
-    answer:
-      "The theme for this year’s Rose Hack is Cyberpunk! The tracks that will be featured for you to make projects for are Beginner Friendly, Social Impact, Women centric, UI/UX, Hardware, Data!",
+    question: "MLH Code of Conduct",
+    answer: (
+      <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+        MLH Code of Conduct
+      </Link>
+    ),
   },
 ];

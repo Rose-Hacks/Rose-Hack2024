@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className="bottom-0 absolute flex flex-col items-center justify-center z-10 w-full gap-2">
         <Image src={LOGO} alt="logo" className="w-1/12" />
-        <div className="text-lg md:text-4xl">ROSEHACK 2024</div>
+        <div className="text-lg md:text-4xl">ROSEHACK 2025</div>
         <div className="text-xs md:text-xl">
           Made with <AiFillHeart className="inline" /> by the Rose Hack team at
           University of California, Riverside.
